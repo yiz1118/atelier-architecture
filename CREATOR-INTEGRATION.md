@@ -10,21 +10,21 @@ The original header, navigation, page content, photographs, animation rules and 
 
 ## Central configuration
 
-`config/creator.ts` is the only implementation source for the creator's name, title, email, location, availability, LinkedIn, GitHub, WhatsApp number/URL and future portfolio URL. Components and author metadata import it. The same file contains `conceptProject.name` and `conceptProject.year` for the creator label and message context.
+`config/creator.ts` is the only implementation source for the creator's name, title, email, location, availability, LinkedIn, GitHub, WhatsApp number/URL and portfolio URL. Components and author metadata import it. The same file contains `conceptProject.name` and `conceptProject.year` for the creator label and message context.
 
 `creatorContactLinks()` derives both contact URLs from that configuration and URL-encodes their text. The WhatsApp message identifies the ATELIER NORTH concept project and asks to discuss a website/app project. The email subject is **Project Inquiry — ATELIER NORTH**, with a short prefilled introduction in the body.
 
 ## Contact behavior
 
-**Start a Project** is a native `details`/`summary` disclosure. Activating it reveals WhatsApp and Email together, with a visible phone number and email address. It works with pointer, touch and keyboard without an extra client component. The summary is at least 54px tall; contact rows are at least 68px tall. Profile links and the optional portfolio link have a minimum 44px height.
+**Start a Project** is a native `details`/`summary` disclosure. Activating it reveals WhatsApp and Email together, with a visible phone number and email address. It works with pointer, touch and keyboard without an extra client component. The summary is at least 54px tall; contact rows are at least 68px tall. Profile and portfolio links have a minimum 44px height.
 
-WhatsApp, LinkedIn, GitHub and the future portfolio open in a new tab with `rel="noopener noreferrer"`. Email uses `mailto:` and the visitor's configured email client. All interface arrows use the existing decorative, `currentColor` SVG component. Focus remains visible, and the email can wrap without clipping.
+WhatsApp, LinkedIn, GitHub and View Portfolio open in a new tab with `rel="noopener noreferrer"`. Email uses `mailto:` and the visitor's configured email client. All interface arrows use the existing decorative, `currentColor` SVG component. Focus remains visible, and the email can wrap without clipping.
 
-## Enable the future portfolio
+## Portfolio destination
 
-Keep `creator.portfolioUrl: null` until the main portfolio exists. No placeholder, disabled link or public “coming soon” text is rendered.
+`creator.portfolioUrl` is set to `https://alson-portfolio-nine.vercel.app/`. The creator section therefore shows **View Portfolio**, linking from this concept website to the live main portfolio.
 
-Once the portfolio is live, change that value in `config/creator.ts` to its full HTTPS URL, then run `npm run build` and restart the production server. **View Portfolio** appears automatically beside the creator contact invitation. A configuration test renders the actual component with both a null URL and a configured URL to verify this behavior.
+If the address changes, edit that single value in `config/creator.ts`, then run `npm run build` and restart the production server. A configuration test renders the actual component with both a null URL and a configured URL to verify the conditional link behavior.
 
 ## Tracking preparation
 
@@ -37,14 +37,14 @@ The creator section has `data-analytics-project="ATELIER NORTH"`. Controls expos
 | WhatsApp | `creator_whatsapp` |
 | LinkedIn | `creator_linkedin` |
 | GitHub | `creator_github` |
-| Portfolio, once configured | `creator_portfolio` |
+| View Portfolio | `creator_portfolio` |
 
 A future click listener can read the closest event attribute and the enclosing project attribute. The disclosure activation identifier covers both opening and closing; a future handler can check the resulting `details.open` state if only opening should count.
 
 ## Verification
 
 - Lint, TypeScript checking and the production build pass.
-- The complete browser suite passes 14 tests; its post-test step passes two creator configuration tests and refreshes the five portfolio captures and two cover crops.
+- The earlier integration run passed the complete 14-test browser suite and refreshed five portfolio captures and two cover crops. This audit reran the two creator configuration tests successfully.
 - The dedicated creator matrix passes 15 checks across Windows Chrome, Windows Edge, WebKit desktop, iPhone WebKit emulation and Android Chrome emulation.
 - Each profile checks 375, 390, 430, 768, 1024 and 1440px layouts, keyboard or touch activation, focus, control height, unclipped contact text, horizontal overflow and automated accessibility. The creator section reports zero Axe violations.
 - Creator status and credit are checked on eight representative content routes plus the designed 404 page. Link destinations, encoded messages, external-link attributes and tracking identifiers are checked without sending a message.
@@ -55,7 +55,7 @@ Evidence is in `qa/creator/browser-matrix.json`, `qa/creator/before-layout.json`
 
 Commands: `npm test`, `npm run test:creator`, `npm run test:creator-config` and, against a running production server, `node scripts/creator-review.mjs`.
 
-The browser matrix runs on Windows with browser engines and device emulation. Physical iPhone, Android and macOS testing was not performed. External destinations and prefilled content were validated locally; email delivery, WhatsApp delivery and third-party account availability were not exercised. The site remains a local preview.
+The browser matrix runs on Windows with browser engines and device emulation. Physical iPhone, Android and macOS testing was not performed. The portfolio, GitHub and WhatsApp destinations returned HTTP 200 during the audit; LinkedIn returned HTTP 999 to an automated request, leaving external profile availability unconfirmed. Contact destinations and prefilled content were checked without sending email or WhatsApp messages. Runtime verification used the local production preview; the pending local commits are not yet on GitHub. See `QA.md` for remote and Vercel evidence.
 
 ## Files
 

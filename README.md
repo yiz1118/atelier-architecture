@@ -60,6 +60,6 @@ The ruled creator colophon beneath the original studio footer identifies this as
 
 Update personal details in **`config/creator.ts`**. The same file supplies the creator credit, real contact destinations, prefilled messages and author metadata. `conceptProject.name` controls the project context in the contact messages.
 
-`creator.portfolioUrl` is currently `null`, so no portfolio link is rendered. When the main portfolio is live, replace `null` with its full HTTPS URL and rebuild/restart the production application. **View Portfolio** will then appear automatically; no component edit is needed.
+`creator.portfolioUrl` points to the live main portfolio at `https://alson-portfolio-nine.vercel.app/`, so **View Portfolio** appears in the creator section. If the portfolio address changes, update that one configuration value and rebuild/restart the production application; no component edit is needed.
 
 The layer adds no client JavaScript or analytics package. Semantic `data-analytics-event` identifiers are ready for future tracking. See [CREATOR-INTEGRATION.md](CREATOR-INTEGRATION.md) for implementation, event names and verification evidence. With the production server running, `node scripts/creator-review.mjs` refreshes the six creator review sheets and compares core layout metrics against the saved pre-integration baseline.

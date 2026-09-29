@@ -11,17 +11,17 @@ This is a fictional **Concept Project**. The studio, five project studies, locat
 | `npm run lint` | Passed; no ESLint errors |
 | `npm run typecheck` | Passed; no TypeScript errors |
 | `npm run build` | Passed; Next.js production build completed |
-| `npm test` | Passed; 14 browser tests, 0 failures, 0 skipped, 0 flaky |
-| Creator configuration post-test | Passed; 2 tests covering null/configured portfolio URLs and encoded contact context |
+| `npm test` | Earlier integration run passed 14 browser tests, 0 failures, 0 skipped, 0 flaky; not rerun for this audit |
+| `npm run test:creator-config` | Passed again; 2 tests covering null/configured portfolio URLs and encoded contact context |
 | `npm run test:creator` | Passed; 15 checks across five browser/device profiles |
 | Creator layout comparison | Passed; 0 sampled core layout/style changes across 48 page/width combinations |
-| `npm run test:icons` | Earlier icon verification passed 10 checks across five profiles; both icon tests also pass in the current main Chrome suite |
-| Screenshot post-test step | Passed; full-page captures and cover crops saved |
+| `npm run test:icons` | Earlier icon verification passed 10 checks across five profiles; both icon tests also passed in the earlier main Chrome suite |
+| Full-page screenshot post-test step | Earlier integration run passed; the current audit refreshed creator/footer review captures separately |
 | `npm audit` | Earlier project verification reported 0 known vulnerabilities; not repeated for the creator integration |
 
-Build ID: `qC5tNcMYkToK3JbGlNCh0`.
+Build ID for the 29 September creator audit: `-nyTNM0MDxMtKSnsHkU78`.
 
-Environment: Windows, Node.js 24.13.0, Next.js 16.3.6, React 19.3.0, TypeScript 6.0.3, Tailwind 4.3.3, installed Google Chrome through Playwright. The final main browser suite completed in 52.3 seconds. Machine-readable results are in [browser-results.json](qa/browser-results.json). The [icon consistency audit](ICON-CONSISTENCY-QA.md) records the earlier symbol matrix and visual comparison. The [creator integration record](CREATOR-INTEGRATION.md) explains the new contact layer and its verification.
+Environment: Windows, Node.js 24.13.0, Next.js 16.3.6, React 19.3.0, TypeScript 6.0.3, Tailwind 4.3.3, installed Google Chrome through Playwright. The earlier main browser suite completed in 52.3 seconds; its retained machine-readable results are in [browser-results.json](qa/browser-results.json). The [icon consistency audit](ICON-CONSISTENCY-QA.md) records the earlier symbol matrix and visual comparison. The [creator integration record](CREATOR-INTEGRATION.md) explains the contact layer. This audit reran lint, type checking, production build, configuration tests, the creator browser matrix and creator visual/layout review.
 
 ## Routes and content
 
@@ -46,13 +46,30 @@ Unknown project, article and general routes returned HTTP 404 with the designed 
 
 ## Creator and real freelance contact
 
+The audit found an existing creator system. Every requested capability was already present; no application, configuration, component, style or motion changes were required in this audit. Documentation describing the portfolio as unset was corrected, and QA records/captures were refreshed.
+
+| Requested capability | Audit result |
+| --- | --- |
+| Central creator configuration | Present in `config/creator.ts`; real details are imported by components |
+| Name and professional title | Alson Chua; Independent Web & App Developer |
+| Concept status | Independent Concept Project |
+| Creator/contact section | Shared footer, near the bottom of every page |
+| Location and availability | Malaysia/worldwide location and freelance availability displayed |
+| View Portfolio | Exact configured live portfolio URL, safe external link and SVG arrow |
+| Start a Project | Native disclosure offering both WhatsApp and Email |
+| Email and WhatsApp | Configured addresses and encoded ATELIER NORTH context |
+| LinkedIn and GitHub | Configured profile URLs, safe external navigation and SVG arrows |
+| Fictional studio CTA | Original `/contact` path preserved and distinct from creator contact |
+
 The original studio footer now leads into a separate creator colophon with **Independent Concept Project**, **Designed & developed by Alson Chua**, his professional title, Malaysia/worldwide location and freelance availability. It is present on all routes through the shared footer; the creator suite explicitly checks eight representative content routes and the designed 404 page.
 
 **Start a Project** opens a native disclosure with both WhatsApp and Email. Tests verify the exact configured destinations, properly encoded project-specific message/subject/body, LinkedIn and GitHub links, external-link attributes, SVG icons and future tracking identifiers. The studio CTA still leads to the fictional enquiry demonstration. Personal information is centralized in `config/creator.ts`, including the author metadata.
 
-With `creator.portfolioUrl: null`, no portfolio link is rendered. Two configuration tests verify both that absent state and the automatic appearance of a configured URL, plus contact generation after profile/project changes.
+`creator.portfolioUrl` now points to `https://alson-portfolio-nine.vercel.app/`, and the creator section shows **View Portfolio** with the existing SVG arrow. Two configuration tests still verify the conditional behavior for both an absent URL and a configured URL, plus contact generation after profile/project changes. The served production homepage includes the exact portfolio destination, while the studio's original `/contact` CTA remains separate.
 
-The dedicated creator matrix passed **15 checks** across Windows Chrome, Windows Edge, WebKit desktop, iPhone WebKit emulation and Android Chrome emulation. Each profile checks **375, 390, 430, 768, 1024 and 1440px**. Controls meet the 44px minimum height, contact text is unclipped, no horizontal overflow is detected, keyboard/touch disclosure operation and visible focus pass, and Axe reports zero creator-section violations. The matrix completed in 56.2 seconds with no failures, skips or flaky results: [browser-matrix.json](qa/creator/browser-matrix.json).
+The dedicated creator matrix was rerun after the portfolio link was enabled and passed **15 checks** across Windows Chrome, Windows Edge, WebKit desktop, iPhone WebKit emulation and Android Chrome emulation. Each profile checks **375, 390, 430, 768, 1024 and 1440px**. Controls meet the 44px minimum height, contact text is unclipped, no horizontal overflow is detected, keyboard/touch disclosure operation and visible focus pass, and Axe reports zero creator-section violations. The matrix completed in 51.3 seconds with no failures, skips or flaky results: [browser-matrix.json](qa/creator/browser-matrix.json).
+
+The portfolio, GitHub and WhatsApp destinations returned HTTP 200 during this audit. LinkedIn returned HTTP 999 to an automated request, so its exact configured URL and link markup were verified but external profile availability was not confirmed. The email `mailto:` destination and encoded ATELIER NORTH WhatsApp message were checked locally; no message was sent. A source scan found no banned emoji or Unicode arrow interface literals in the application, components or creator configuration.
 
 Before/after core layout measurements cover eight page types at those six widths. Header, primary/editorial headings, editorial images and original footer blocks retain their sampled geometry (within 0.5px), typography, color and spacing: [core-layout-differences.json](qa/creator/core-layout-differences.json) contains zero differences.
 
@@ -110,8 +127,10 @@ Two additional opening crops, `homepage-cover.png` and `mobile-cover.png`, are a
 
 ## Workspace isolation and remaining limits
 
-This numbered project is an independent application with its own dependencies, configuration and QA commands. The parent portfolio's TypeScript and ESLint exclusions were updated only for this project's directory. Verification confirmed that the parent compiler includes zero files from this project and that its linter ignores this project's source path.
+This audit inspected and modified only the independent `atelier-architecture` project. It has its own dependencies, configuration and QA commands. No sibling portfolio project was modified or included in the checks.
 
-Broad parent checks remain independently failing because other numbered projects are included by the parent's configuration and produce unrelated generated-file/module errors. Those sibling applications were not modified. The passing results above apply to this standalone architecture site.
+The branch is `backup`, tracking `origin/backup`, and origin is `https://github.com/yiz1118/atelier-architecture.git`. A live `git ls-remote` check before the audit commit showed both remote `backup` and `master` at `d4b691a8f7af66aad3ce178e979a560a5b96ffa0`. Local portfolio activation commit `4f7c13f` was therefore not on either remote branch. This audit does not push commits; use `git status -sb` and `git log` to inspect the final local commit/ahead state.
 
-The site has not been deployed or tested on a physical device, native macOS/iOS Safari or Firefox. WebKit engine and device-emulation checks run on Windows. Real creator destinations and prefilled text have been validated locally without sending email or WhatsApp messages or checking third-party account availability. No email provider, backend, analytics collector, persistent studio enquiry storage or real studio credentials are configured. Before any future deployment, configure `NEXT_PUBLIC_SITE_URL` with the public origin and repeat checks on that deployed environment.
+GitHub's deployment API showed Vercel deployment `6732591816`, environment `Production`, state `success`, for that initial commit. This confirms existing Vercel integration history. The current Vercel production-branch setting could not be verified from the checkout; no local `.vercel/project.json` or `vercel.json` is present. With Git deployment enabled, pushes to the configured production branch trigger production deployment; other branches normally receive previews. See [Vercel Git deployment documentation](https://vercel.com/docs/git). Pushing `backup` alone must not be described as a confirmed production update.
+
+This audit did not verify a deployed ATELIER NORTH site, a physical device, native macOS/iOS Safari or Firefox. WebKit engine and device-emulation checks run on Windows. No email provider, backend, analytics collector, persistent studio enquiry storage or real studio credentials are configured. For a deployed version, configure `NEXT_PUBLIC_SITE_URL` with the public origin and repeat checks on that environment.
