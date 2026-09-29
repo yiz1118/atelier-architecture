@@ -1,0 +1,495 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\alson\\Documents\\codexProject\\Freelance Portfolio\\Portfolio website\\04 — Architecture  Luxury Property Website\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.icons.config.ts"
+    ],
+    "configFile": "C:\\Users\\alson\\Documents\\codexProject\\Freelance Portfolio\\Portfolio website\\04 — Architecture  Luxury Property Website\\playwright.icons.config.ts",
+    "rootDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "windows-chrome",
+        "name": "windows-chrome",
+        "testDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "icons.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "windows-edge",
+        "name": "windows-edge",
+        "testDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "icons.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-desktop",
+        "name": "webkit-desktop",
+        "testDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "icons.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-iphone",
+        "name": "webkit-iphone",
+        "testDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "icons.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chrome-android-emulation",
+        "name": "chrome-android-emulation",
+        "testDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "icons.spec.ts"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa/icon-consistency/browser-matrix.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 2,
+    "webServer": {
+      "command": "npm run start -- -p 3204",
+      "url": "http://127.0.0.1:3204",
+      "reuseExistingServer": true,
+      "timeout": 90000
+    }
+  },
+  "suites": [
+    {
+      "title": "icons.spec.ts",
+      "file": "icons.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "interface symbols cannot fall back to platform emoji glyphs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "windows-chrome",
+              "projectName": "windows-chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12781,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:12:10.462Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41cc31d2db6f7466182-e43d4e8cd978e2b311fc",
+          "file": "icons.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "SVG controls preserve menu, dropdown, color and motion behavior",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "windows-chrome",
+              "projectName": "windows-chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1587,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:12:23.617Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41cc31d2db6f7466182-260e9bf2bc6d86fd04f6",
+          "file": "icons.spec.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "title": "interface symbols cannot fall back to platform emoji glyphs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "windows-edge",
+              "projectName": "windows-edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 13628,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:12:10.473Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41cc31d2db6f7466182-62db6d4aa303f8b4e843",
+          "file": "icons.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "SVG controls preserve menu, dropdown, color and motion behavior",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "windows-edge",
+              "projectName": "windows-edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1455,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:12:24.720Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41cc31d2db6f7466182-55a06c9996f727f4fdca",
+          "file": "icons.spec.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "title": "interface symbols cannot fall back to platform emoji glyphs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-desktop",
+              "projectName": "webkit-desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18347,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:12:26.397Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41cc31d2db6f7466182-a72afeeb1cc831091558",
+          "file": "icons.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "SVG controls preserve menu, dropdown, color and motion behavior",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-desktop",
+              "projectName": "webkit-desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3379,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:12:44.877Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41cc31d2db6f7466182-71e5ed029cca9cd5d834",
+          "file": "icons.spec.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "title": "interface symbols cannot fall back to platform emoji glyphs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-iphone",
+              "projectName": "webkit-iphone",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 35061,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:12:27.400Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41cc31d2db6f7466182-9d4bcc0812f473572e29",
+          "file": "icons.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "SVG controls preserve menu, dropdown, color and motion behavior",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-iphone",
+              "projectName": "webkit-iphone",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4100,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:13:02.652Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41cc31d2db6f7466182-ba95db9e179cec74e254",
+          "file": "icons.spec.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "title": "interface symbols cannot fall back to platform emoji glyphs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-android-emulation",
+              "projectName": "chrome-android-emulation",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16220,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:12:50.136Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41cc31d2db6f7466182-38a53a8bee4aad2be003",
+          "file": "icons.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "SVG controls preserve menu, dropdown, color and motion behavior",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-android-emulation",
+              "projectName": "chrome-android-emulation",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1353,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T04:13:06.900Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a41cc31d2db6f7466182-309ea7e2a868900ce821",
+          "file": "icons.spec.ts",
+          "line": 47,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-29T04:12:10.106Z",
+    "duration": 58797.797999999995,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "atelier-north-concept",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "playwright test",
+    "test:icons": "playwright test --config=playwright.icons.config.ts",
+    "test:creator": "playwright test --config=playwright.creator.config.ts",
+    "test:creator-config": "tsx --test tests/creator-config.unit.ts",
+    "posttest": "npm run test:creator-config && node scripts/portfolio-covers.mjs",
+    "test:screenshots": "playwright test -g \"portfolio screenshots\" && node scripts/portfolio-covers.mjs",
+    "audit:performance": "node scripts/performance.mjs"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.2.8",
+    "@fontsource/manrope": "^5.2.8",
+    "next": "16.3.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "tailwindcss": "4.3.3"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.1",
+    "@playwright/test": "^1.58.2",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "chrome-launcher": "^1.2.1",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.3.6",
+    "lighthouse": "^13.5.0",
+    "sharp": "^0.35.5",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}

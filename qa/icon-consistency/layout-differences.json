@@ -1,0 +1,4812 @@
+[
+  {
+    "key": "375:/",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/",
+    "index": 3,
+    "class": "page-shell home-opening",
+    "delta": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SECTION",
+      "class": "page-shell home-opening",
+      "rect": [
+        20,
+        74,
+        335,
+        777.83
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "24px 0px 0px",
+        "0px 20px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "SECTION",
+      "class": "page-shell home-opening",
+      "rect": [
+        20,
+        74,
+        335,
+        777.83
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "24px 0px 0px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/projects",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/projects/coastal-house",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/projects/courtyard-residence",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/projects/gallery-hotel",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/projects/gallery-hotel",
+    "index": 9,
+    "class": "page-shell detail-gallery",
+    "delta": [
+      0,
+      -0.09,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        20,
+        1564.2,
+        335,
+        735.06
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "90px 20px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        20,
+        1564.11,
+        335,
+        735.06
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "90px 0px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/projects/north-light-apartment",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/projects/urban-pavilion",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/projects/urban-pavilion",
+    "index": 9,
+    "class": "page-shell detail-gallery",
+    "delta": [
+      0,
+      -0.1,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        20,
+        1490.33,
+        335,
+        735.06
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "90px 0px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        20,
+        1490.23,
+        335,
+        735.06
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "90px 20px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/studio",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/services",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/journal",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/journal/the-shape-of-daylight",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/journal/materials-that-acquire-character",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/journal/materials-that-acquire-character",
+    "index": 3,
+    "class": "journal-article page-shell inner-page",
+    "delta": [
+      0,
+      0,
+      0,
+      -0.09
+    ],
+    "before": {
+      "tag": "ARTICLE",
+      "class": "journal-article page-shell inner-page",
+      "rect": [
+        20,
+        74,
+        335,
+        2411.42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "26px 0px 110px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "ARTICLE",
+      "class": "journal-article page-shell inner-page",
+      "rect": [
+        20,
+        74,
+        335,
+        2411.33
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "26px 0px 110px",
+        "0px 20px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/journal/the-quiet-threshold",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/contact",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "375:/contact",
+    "index": 8,
+    "class": "",
+    "delta": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        20,
+        1244.92,
+        335,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 14px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    },
+    "after": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        20,
+        1244.92,
+        335,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 24px 14px 4px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    }
+  },
+  {
+    "key": "375:/missing-page",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        287.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/projects",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/projects/coastal-house",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/projects/courtyard-residence",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/projects/gallery-hotel",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/projects/north-light-apartment",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/projects/north-light-apartment",
+    "index": 9,
+    "class": "page-shell detail-gallery",
+    "delta": [
+      0,
+      -0.1,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        20,
+        1586.66,
+        350,
+        762.34
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "90px 20px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        20,
+        1586.56,
+        350,
+        762.34
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "90px 0px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/projects/urban-pavilion",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/projects/urban-pavilion",
+    "index": 9,
+    "class": "page-shell detail-gallery",
+    "delta": [
+      0,
+      -0.1,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        20,
+        1505.33,
+        350,
+        762.34
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "90px 20px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        20,
+        1505.23,
+        350,
+        762.34
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "90px 0px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/studio",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/services",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/journal",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/journal/the-shape-of-daylight",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/journal/materials-that-acquire-character",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/journal/the-quiet-threshold",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/contact",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "390:/contact",
+    "index": 8,
+    "class": "",
+    "delta": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        20,
+        1248.8,
+        350,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 14px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    },
+    "after": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        20,
+        1248.8,
+        350,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 24px 14px 4px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    }
+  },
+  {
+    "key": "390:/missing-page",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        302.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/projects",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/projects/coastal-house",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/projects/courtyard-residence",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/projects/gallery-hotel",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/projects/north-light-apartment",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/projects/urban-pavilion",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/studio",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/services",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/journal",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/journal/the-shape-of-daylight",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/journal/materials-that-acquire-character",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/journal/the-quiet-threshold",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/contact",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "430:/contact",
+    "index": 8,
+    "class": "",
+    "delta": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        20,
+        1248.8,
+        390,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 14px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    },
+    "after": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        20,
+        1248.8,
+        390,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 24px 14px 4px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    }
+  },
+  {
+    "key": "430:/missing-page",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        15.5,
+        67.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        342.05,
+        14.5,
+        67.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/projects",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/projects/coastal-house",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/projects/courtyard-residence",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/projects/gallery-hotel",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/projects/north-light-apartment",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/projects/urban-pavilion",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/studio",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/services",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/journal",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/journal/the-shape-of-daylight",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/journal/materials-that-acquire-character",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/journal/the-quiet-threshold",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/contact",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "768:/contact",
+    "index": 8,
+    "class": "",
+    "delta": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        313.59,
+        821.16,
+        193.2,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 14px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    },
+    "after": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        313.59,
+        821.16,
+        193.2,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 24px 14px 4px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    }
+  },
+  {
+    "key": "768:/missing-page",
+    "index": 1,
+    "class": "menu-toggle",
+    "delta": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "before": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        20.5,
+        79.95,
+        42
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "BUTTON",
+      "class": "menu-toggle",
+      "rect": [
+        656.05,
+        19.5,
+        79.95,
+        44
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "12px",
+        "600",
+        "18px",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 12px 12px",
+        "0px",
+        "14px"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "1024:/contact",
+    "index": 8,
+    "class": "",
+    "delta": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        416,
+        915.16,
+        270,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 14px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    },
+    "after": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        416,
+        915.16,
+        270,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 24px 14px 4px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    }
+  },
+  {
+    "key": "1440:/projects/north-light-apartment",
+    "index": 9,
+    "class": "page-shell detail-gallery",
+    "delta": [
+      0,
+      -0.09,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        64,
+        1969.56,
+        1312,
+        1450.41
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "155px 0px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        64,
+        1969.47,
+        1312,
+        1450.41
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "155px 64px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "1440:/projects/urban-pavilion",
+    "index": 9,
+    "class": "page-shell detail-gallery",
+    "delta": [
+      0,
+      -0.09,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        64,
+        1849.61,
+        1312,
+        1450.41
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "155px 64px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    },
+    "after": {
+      "tag": "SECTION",
+      "class": "page-shell detail-gallery",
+      "rect": [
+        64,
+        1849.52,
+        1312,
+        1450.41
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "16px",
+        "400",
+        "24px",
+        "normal"
+      ],
+      "spacing": [
+        "0px",
+        "155px 0px 0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34)"
+      ]
+    }
+  },
+  {
+    "key": "1440:/contact",
+    "index": 8,
+    "class": "",
+    "delta": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "before": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        588.78,
+        987.78,
+        375.61,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 0px 14px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    },
+    "after": {
+      "tag": "SELECT",
+      "class": "",
+      "rect": [
+        588.78,
+        987.78,
+        375.61,
+        48
+      ],
+      "font": [
+        "Manrope, Arial, sans-serif",
+        "14px",
+        "400",
+        "normal",
+        "normal"
+      ],
+      "spacing": [
+        "12px 24px 14px 4px",
+        "0px",
+        "normal"
+      ],
+      "colors": [
+        "rgb(36, 38, 34)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(36, 38, 34) rgb(36, 38, 34) rgb(158, 160, 152)"
+      ]
+    }
+  }
+]

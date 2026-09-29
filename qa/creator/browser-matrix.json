@@ -1,0 +1,665 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\alson\\Documents\\codexProject\\Freelance Portfolio\\Portfolio website\\04 — Architecture  Luxury Property Website\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.creator.config.ts"
+    ],
+    "configFile": "C:\\Users\\alson\\Documents\\codexProject\\Freelance Portfolio\\Portfolio website\\04 — Architecture  Luxury Property Website\\playwright.creator.config.ts",
+    "rootDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "windows-chrome",
+        "name": "windows-chrome",
+        "testDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "creator.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "windows-edge",
+        "name": "windows-edge",
+        "testDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "creator.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-desktop",
+        "name": "webkit-desktop",
+        "testDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "creator.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-iphone",
+        "name": "webkit-iphone",
+        "testDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "creator.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chrome-android-emulation",
+        "name": "chrome-android-emulation",
+        "testDir": "C:/Users/alson/Documents/codexProject/Freelance Portfolio/Portfolio website/04 — Architecture  Luxury Property Website/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "creator.spec.ts"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa/creator/browser-matrix.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 2,
+    "webServer": {
+      "command": "npm run start -- -p 3204",
+      "url": "http://127.0.0.1:3204",
+      "reuseExistingServer": true,
+      "timeout": 90000
+    }
+  },
+  "suites": [
+    {
+      "title": "creator.spec.ts",
+      "file": "creator.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "the concept creator is credited separately from the studio enquiry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "windows-chrome",
+              "projectName": "windows-chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3939,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:24.592Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-74b37937307dc909ebe5",
+          "file": "creator.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "Start a Project offers properly addressed email and WhatsApp choices",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "windows-chrome",
+              "projectName": "windows-chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1133,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:29.031Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-ad41ee740ff1dc541a61",
+          "file": "creator.spec.ts",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "creator contacts fit common widths and work with keyboard or touch",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "windows-chrome",
+              "projectName": "windows-chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8763,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:30.182Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-460d1b272113d3c9b265",
+          "file": "creator.spec.ts",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "the concept creator is credited separately from the studio enquiry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "windows-edge",
+              "projectName": "windows-edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4049,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:24.597Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-a161f2bf9372fcf6c591",
+          "file": "creator.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "Start a Project offers properly addressed email and WhatsApp choices",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "windows-edge",
+              "projectName": "windows-edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1190,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:29.188Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-aca79f1ea3c8f75f7b86",
+          "file": "creator.spec.ts",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "creator contacts fit common widths and work with keyboard or touch",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "windows-edge",
+              "projectName": "windows-edge",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8958,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:30.395Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-0bc718cc9627621595c4",
+          "file": "creator.spec.ts",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "the concept creator is credited separately from the studio enquiry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-desktop",
+              "projectName": "webkit-desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6329,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:40.304Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-9f78f3ceb66c63fd811a",
+          "file": "creator.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "Start a Project offers properly addressed email and WhatsApp choices",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-desktop",
+              "projectName": "webkit-desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2174,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:46.786Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-a12e3532b2639f4a1d5c",
+          "file": "creator.spec.ts",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "creator contacts fit common widths and work with keyboard or touch",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-desktop",
+              "projectName": "webkit-desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19803,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:48.968Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-2cd60bd0fb431b26046e",
+          "file": "creator.spec.ts",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "the concept creator is credited separately from the studio enquiry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-iphone",
+              "projectName": "webkit-iphone",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4801,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:40.517Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-dd134fbe2d2799f20a3a",
+          "file": "creator.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "Start a Project offers properly addressed email and WhatsApp choices",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-iphone",
+              "projectName": "webkit-iphone",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1678,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:45.481Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-86981b36e6131de29eb3",
+          "file": "creator.spec.ts",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "creator contacts fit common widths and work with keyboard or touch",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-iphone",
+              "projectName": "webkit-iphone",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 31023,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:32:47.174Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-917e8ff2254a01d2d6df",
+          "file": "creator.spec.ts",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "the concept creator is credited separately from the studio enquiry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-android-emulation",
+              "projectName": "chrome-android-emulation",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2239,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:33:09.538Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-643e65ea4bc52b464bba",
+          "file": "creator.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "Start a Project offers properly addressed email and WhatsApp choices",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-android-emulation",
+              "projectName": "chrome-android-emulation",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 732,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:33:12.108Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-0d319a5b4c25f6c8bbcc",
+          "file": "creator.spec.ts",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "creator contacts fit common widths and work with keyboard or touch",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-android-emulation",
+              "projectName": "chrome-android-emulation",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6743,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-29T06:33:12.853Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52f43aa405535c78cd0d-f2bd0449c5cbdd496f1f",
+          "file": "creator.spec.ts",
+          "line": 57,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-29T06:32:23.758Z",
+    "duration": 56197.749,
+    "expected": 15,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

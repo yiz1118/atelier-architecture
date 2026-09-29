@@ -1,0 +1,107 @@
+[
+  {
+    "file": "app/not-found.tsx",
+    "line": 4,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/page.tsx",
+    "line": 25,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/page.tsx",
+    "line": 30,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/page.tsx",
+    "line": 35,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/page.tsx",
+    "line": 40,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/journal/page.tsx",
+    "line": 9,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/services/page.tsx",
+    "line": 12,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/services/page.tsx",
+    "line": 12,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/studio/page.tsx",
+    "line": 20,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/studio/page.tsx",
+    "line": 21,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/journal/[slug]/page.tsx",
+    "line": 21,
+    "symbol": "←"
+  },
+  {
+    "file": "app/journal/[slug]/page.tsx",
+    "line": 21,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/journal/[slug]/page.tsx",
+    "line": 21,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/projects/[slug]/page.tsx",
+    "line": 23,
+    "symbol": "←"
+  },
+  {
+    "file": "app/projects/[slug]/page.tsx",
+    "line": 35,
+    "symbol": "↗"
+  },
+  {
+    "file": "app/projects/[slug]/page.tsx",
+    "line": 36,
+    "symbol": "↗"
+  },
+  {
+    "file": "components/contact-form.tsx",
+    "line": 57,
+    "symbol": "↗"
+  },
+  {
+    "file": "components/project-card.tsx",
+    "line": 18,
+    "symbol": "↗"
+  },
+  {
+    "file": "components/section-intro.tsx",
+    "line": 7,
+    "symbol": "↗"
+  },
+  {
+    "file": "components/site-footer.tsx",
+    "line": 11,
+    "symbol": "↗"
+  },
+  {
+    "file": "components/site-header.tsx",
+    "line": 54,
+    "symbol": "↗"
+  }
+]
