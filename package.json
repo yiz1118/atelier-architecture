@@ -12,6 +12,7 @@
     "test:icons": "playwright test --config=playwright.icons.config.ts",
     "test:creator": "playwright test --config=playwright.creator.config.ts",
     "test:creator-config": "tsx --test tests/creator-config.unit.ts",
+    "test:motion": "playwright test --config=playwright.motion.config.ts",
     "posttest": "npm run test:creator-config && node scripts/portfolio-covers.mjs",
     "test:screenshots": "playwright test -g \"portfolio screenshots\" && node scripts/portfolio-covers.mjs",
     "audit:performance": "node scripts/performance.mjs"

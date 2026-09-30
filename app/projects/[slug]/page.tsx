@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { projects, projectBySlug } from "@/content/projects";
 import { EditorialImage } from "@/components/editorial-image";
 import { PlanDiagram } from "@/components/plan-diagram";
+import { Reveal } from "@/components/reveal";
 
 export function generateStaticParams() { return projects.map((project) => ({ slug: project.slug })); }
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -26,9 +27,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
       <div className="project-facts-head"><div><span className="mono">Location concept</span><strong>{project.location}</strong></div><div><span className="mono">Year concept</span><strong>{project.year}</strong></div><div><span className="mono">Discipline</span><strong>{project.category}</strong></div></div>
       <EditorialImage src={project.images[0].src} alt={project.images[0].alt} className="detail-hero-image" caption={project.images[0].caption} priority sizes="(max-width: 768px) 100vw, 92vw" />
     </div>
-    <section className="page-shell detail-introduction section-block"><div className="section-intro-label"><span className="mono">01 /</span><span className="eyebrow">The idea</span></div><div><h2>{project.conceptTitle}</h2><div className="concept-prose"><p>{project.detail}</p><p>{project.concept}</p></div></div></section>
+    <section className="page-shell detail-introduction section-block"><div className="section-intro-label"><span className="mono">01 /</span><span className="eyebrow">The idea</span></div><div><Reveal as="h2">{project.conceptTitle}</Reveal><div className="concept-prose"><p>{project.detail}</p><p>{project.concept}</p></div></div></section>
     <section className="page-shell detail-gallery" aria-label={`${project.title} image sequence`}>
-      <EditorialImage src={project.images[1].src} alt={project.images[1].alt} className="gallery-image-one" caption={project.images[1].caption} sizes="(max-width: 768px) 100vw, 72vw" />
+      <EditorialImage src={project.images[1].src} alt={project.images[1].alt} className="gallery-image-one" caption={project.images[1].caption} sizes="(max-width: 768px) 100vw, 72vw" reveal="mask" />
       <EditorialImage src={project.images[2].src} alt={project.images[2].alt} className="gallery-image-two" caption={project.images[2].caption} sizes="(max-width: 768px) 100vw, 48vw" />
     </section>
     <section className="page-shell detail-materials section-block"><div className="section-intro-label"><span className="mono">02 /</span><span className="eyebrow">Material palette</span></div><div className="material-list">{project.materials.map((material, index) => <div key={material}><span className="mono">0{index + 1}</span><h3>{material}</h3></div>)}</div></section>

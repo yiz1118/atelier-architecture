@@ -12,7 +12,7 @@ export function ProjectCard({ project, index = 0, className = "", headingLevel =
   return (
     <article className={`project-card ${className}`}>
       <Link href={`/projects/${project.slug}`} aria-label={`View ${project.title} project`}>
-        <EditorialImage src={image.src} alt={image.alt} className="project-card-image" sizes={sizes} />
+        <EditorialImage src={image.src} alt={image.alt} className="project-card-image" sizes={sizes} revealDelay={fullWidth ? 0 : index % 2 * 80} />
         <div className="project-card-meta">
           <span className="mono project-card-number">{project.number} / 0{index + 1}</span>
           <div><Heading>{project.title}</Heading><p>{project.location} · {project.category}</p></div>

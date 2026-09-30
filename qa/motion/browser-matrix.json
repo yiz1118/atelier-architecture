@@ -3,9 +3,10 @@
     "argv": [
       "C:\\Program Files\\nodejs\\node.exe",
       "C:\\Users\\alson\\Documents\\codexProject\\Portfolio website\\atelier-architecture\\node_modules\\@playwright\\test\\cli.js",
-      "test"
+      "test",
+      "--config=playwright.motion.config.ts"
     ],
-    "configFile": "C:\\Users\\alson\\Documents\\codexProject\\Portfolio website\\atelier-architecture\\playwright.config.ts",
+    "configFile": "C:\\Users\\alson\\Documents\\codexProject\\Portfolio website\\atelier-architecture\\playwright.motion.config.ts",
     "rootDir": "C:/Users/alson/Documents/codexProject/Portfolio website/atelier-architecture/tests",
     "failOnFlakyTests": false,
     "forbidOnly": false,
@@ -28,12 +29,76 @@
         "metadata": {
           "actualWorkers": 2
         },
-        "id": "",
-        "name": "",
+        "id": "windows-chrome",
+        "name": "windows-chrome",
         "testDir": "C:/Users/alson/Documents/codexProject/Portfolio website/atelier-architecture/tests",
         "testIgnore": [],
         "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+          "motion.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Portfolio website/atelier-architecture/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "windows-edge",
+        "name": "windows-edge",
+        "testDir": "C:/Users/alson/Documents/codexProject/Portfolio website/atelier-architecture/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "motion.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Portfolio website/atelier-architecture/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-desktop",
+        "name": "webkit-desktop",
+        "testDir": "C:/Users/alson/Documents/codexProject/Portfolio website/atelier-architecture/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "motion.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Portfolio website/atelier-architecture/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-iphone",
+        "name": "webkit-iphone",
+        "testDir": "C:/Users/alson/Documents/codexProject/Portfolio website/atelier-architecture/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "motion.spec.ts"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/alson/Documents/codexProject/Portfolio website/atelier-architecture/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chrome-android-emulation",
+        "name": "chrome-android-emulation",
+        "testDir": "C:/Users/alson/Documents/codexProject/Portfolio website/atelier-architecture/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "motion.spec.ts"
         ],
         "timeout": 45000
       }
@@ -47,7 +112,7 @@
       [
         "json",
         {
-          "outputFile": "qa/browser-results.json"
+          "outputFile": "qa/motion/browser-matrix.json"
         }
       ]
     ],
@@ -70,192 +135,6 @@
   },
   "suites": [
     {
-      "title": "creator.spec.ts",
-      "file": "creator.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "the concept creator is credited separately from the studio enquiry",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 3251,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-09-30T12:16:49.363Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "52f43aa405535c78cd0d-874aa77da92b5b173163",
-          "file": "creator.spec.ts",
-          "line": 7,
-          "column": 5
-        },
-        {
-          "title": "Start a Project offers properly addressed email and WhatsApp choices",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 955,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-09-30T12:16:52.950Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "52f43aa405535c78cd0d-83c48c2bd75718855668",
-          "file": "creator.spec.ts",
-          "line": 24,
-          "column": 5
-        },
-        {
-          "title": "creator contacts fit common widths and work with keyboard or touch",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 90000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 7776,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-09-30T12:16:53.921Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "52f43aa405535c78cd0d-fe8be148a69358009d93",
-          "file": "creator.spec.ts",
-          "line": 57,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "icons.spec.ts",
-      "file": "icons.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "interface symbols cannot fall back to platform emoji glyphs",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 180000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
-                  "status": "passed",
-                  "duration": 17006,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-09-30T12:16:49.323Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a41cc31d2db6f7466182-998102364a8bad487acf",
-          "file": "icons.spec.ts",
-          "line": 7,
-          "column": 5
-        },
-        {
-          "title": "SVG controls preserve menu, dropdown, color and motion behavior",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
-                  "status": "passed",
-                  "duration": 1883,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-09-30T12:17:06.647Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a41cc31d2db6f7466182-3e69b2c4054fa4875fc6",
-          "file": "icons.spec.ts",
-          "line": 47,
-          "column": 5
-        }
-      ]
-    },
-    {
       "title": "motion.spec.ts",
       "file": "motion.spec.ts",
       "column": 0,
@@ -270,19 +149,19 @@
               "timeout": 45000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "windows-chrome",
+              "projectName": "windows-chrome",
               "results": [
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3110,
+                  "duration": 3605,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:01.722Z",
+                  "startTime": "2026-09-30T11:31:44.587Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -290,7 +169,7 @@
               "status": "expected"
             }
           ],
-          "id": "472f259022e25a651642-b7cdd0f46d39302d3b4c",
+          "id": "472f259022e25a651642-3e0aa69caf6ab40ee086",
           "file": "motion.spec.ts",
           "line": 6,
           "column": 5
@@ -304,19 +183,19 @@
               "timeout": 45000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "windows-chrome",
+              "projectName": "windows-chrome",
               "results": [
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2607,
+                  "duration": 3067,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:04.845Z",
+                  "startTime": "2026-09-30T11:31:48.802Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -324,7 +203,7 @@
               "status": "expected"
             }
           ],
-          "id": "472f259022e25a651642-fd8de97186a391ac6679",
+          "id": "472f259022e25a651642-4f8c542bb28ee29b05a1",
           "file": "motion.spec.ts",
           "line": 34,
           "column": 5
@@ -338,19 +217,19 @@
               "timeout": 45000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "windows-chrome",
+              "projectName": "windows-chrome",
               "results": [
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1611,
+                  "duration": 2227,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:07.462Z",
+                  "startTime": "2026-09-30T11:31:51.887Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -358,7 +237,7 @@
               "status": "expected"
             }
           ],
-          "id": "472f259022e25a651642-da6a824a83236d7c8e9e",
+          "id": "472f259022e25a651642-cf75b9fb4253af138bdc",
           "file": "motion.spec.ts",
           "line": 63,
           "column": 5
@@ -372,19 +251,19 @@
               "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "windows-chrome",
+              "projectName": "windows-chrome",
               "results": [
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 38666,
+                  "duration": 43468,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:09.083Z",
+                  "startTime": "2026-09-30T11:31:54.137Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -392,55 +271,13 @@
               "status": "expected"
             }
           ],
-          "id": "472f259022e25a651642-b38d24ca050af666b40b",
+          "id": "472f259022e25a651642-3248b7e60451744414be",
           "file": "motion.spec.ts",
-          "line": 97,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "site.spec.ts",
-      "file": "site.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "all pages render and their photographs load",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
-                  "status": "passed",
-                  "duration": 14392,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-09-30T12:17:08.604Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "5c02723ad68c2a0d50c5-7460f5a3a49447771d69",
-          "file": "site.spec.ts",
-          "line": 20,
+          "line": 91,
           "column": 5
         },
         {
-          "title": "project filters, article links and next project navigation work",
+          "title": "opening imagery is immediate and selected scroll reveals run once",
           "ok": true,
           "tags": [],
           "tests": [
@@ -448,19 +285,19 @@
               "timeout": 45000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "windows-edge",
+              "projectName": "windows-edge",
               "results": [
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1247,
+                  "duration": 3310,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:23.007Z",
+                  "startTime": "2026-09-30T11:31:44.603Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -468,13 +305,13 @@
               "status": "expected"
             }
           ],
-          "id": "5c02723ad68c2a0d50c5-74ddea64d40ca2a78765",
-          "file": "site.spec.ts",
-          "line": 36,
+          "id": "472f259022e25a651642-2cbd283523a75746a9f6",
+          "file": "motion.spec.ts",
+          "line": 6,
           "column": 5
         },
         {
-          "title": "enquiry remains a local demonstration and validates input",
+          "title": "navigation stays immediate and hover feedback preserves link geometry",
           "ok": true,
           "tags": [],
           "tests": [
@@ -482,19 +319,19 @@
               "timeout": 45000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "windows-edge",
+              "projectName": "windows-edge",
               "results": [
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1100,
+                  "duration": 2377,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:24.265Z",
+                  "startTime": "2026-09-30T11:31:48.651Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -502,13 +339,13 @@
               "status": "expected"
             }
           ],
-          "id": "5c02723ad68c2a0d50c5-ca6b67e4367cd05273e9",
-          "file": "site.spec.ts",
-          "line": 56,
+          "id": "472f259022e25a651642-4dce28df0ed79d94f706",
+          "file": "motion.spec.ts",
+          "line": 34,
           "column": 5
         },
         {
-          "title": "common widths remain within the viewport",
+          "title": "reduced motion is immediate and server content works without JavaScript",
           "ok": true,
           "tags": [],
           "tests": [
@@ -516,19 +353,19 @@
               "timeout": 45000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "windows-edge",
+              "projectName": "windows-edge",
               "results": [
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 11470,
+                  "duration": 2484,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:25.374Z",
+                  "startTime": "2026-09-30T11:31:51.045Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -536,33 +373,33 @@
               "status": "expected"
             }
           ],
-          "id": "5c02723ad68c2a0d50c5-5f35fe59550f9bf81097",
-          "file": "site.spec.ts",
-          "line": 82,
+          "id": "472f259022e25a651642-4a263611a699b0a3502c",
+          "file": "motion.spec.ts",
+          "line": 63,
           "column": 5
         },
         {
-          "title": "mobile navigation and reduced motion work",
+          "title": "motion preserves responsive content and produces no runtime errors",
           "ok": true,
           "tags": [],
           "tests": [
             {
-              "timeout": 45000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "windows-edge",
+              "projectName": "windows-edge",
               "results": [
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1213,
+                  "duration": 43758,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:36.855Z",
+                  "startTime": "2026-09-30T11:31:53.560Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -570,13 +407,13 @@
               "status": "expected"
             }
           ],
-          "id": "5c02723ad68c2a0d50c5-06398b0b9044d76bbdf7",
-          "file": "site.spec.ts",
-          "line": 97,
+          "id": "472f259022e25a651642-ae604acf0693d91f702c",
+          "file": "motion.spec.ts",
+          "line": 91,
           "column": 5
         },
         {
-          "title": "enquiry can be completed with the keyboard",
+          "title": "opening imagery is immediate and selected scroll reveals run once",
           "ok": true,
           "tags": [],
           "tests": [
@@ -584,19 +421,19 @@
               "timeout": 45000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "webkit-desktop",
+              "projectName": "webkit-desktop",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 2,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1456,
+                  "duration": 4679,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:38.080Z",
+                  "startTime": "2026-09-30T11:32:40.966Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -604,13 +441,13 @@
               "status": "expected"
             }
           ],
-          "id": "5c02723ad68c2a0d50c5-cc03240a00b2d81c335e",
-          "file": "site.spec.ts",
-          "line": 115,
+          "id": "472f259022e25a651642-4f4b963f45b932e1dd3e",
+          "file": "motion.spec.ts",
+          "line": 6,
           "column": 5
         },
         {
-          "title": "key pages pass automated accessibility scan",
+          "title": "navigation stays immediate and hover feedback preserves link geometry",
           "ok": true,
           "tags": [],
           "tests": [
@@ -618,19 +455,19 @@
               "timeout": 45000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "webkit-desktop",
+              "projectName": "webkit-desktop",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 2,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 7066,
+                  "duration": 4658,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:39.548Z",
+                  "startTime": "2026-09-30T11:33:04.217Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -638,13 +475,13 @@
               "status": "expected"
             }
           ],
-          "id": "5c02723ad68c2a0d50c5-d75e24c3075d86d56ca1",
-          "file": "site.spec.ts",
-          "line": 143,
+          "id": "472f259022e25a651642-a0f44d5fa3d5efab8ace",
+          "file": "motion.spec.ts",
+          "line": 34,
           "column": 5
         },
         {
-          "title": "context links, keyboard navigation, optimized images and missing routes",
+          "title": "reduced motion is immediate and server content works without JavaScript",
           "ok": true,
           "tags": [],
           "tests": [
@@ -652,19 +489,19 @@
               "timeout": 45000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "webkit-desktop",
+              "projectName": "webkit-desktop",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 2,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1718,
+                  "duration": 3183,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:46.628Z",
+                  "startTime": "2026-09-30T11:33:08.892Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -672,33 +509,33 @@
               "status": "expected"
             }
           ],
-          "id": "5c02723ad68c2a0d50c5-82b90d46fd9737fc5063",
-          "file": "site.spec.ts",
-          "line": 153,
+          "id": "472f259022e25a651642-0e4ef65ee3f198f84ac9",
+          "file": "motion.spec.ts",
+          "line": 63,
           "column": 5
         },
         {
-          "title": "portfolio screenshots",
+          "title": "motion preserves responsive content and produces no runtime errors",
           "ok": true,
           "tags": [],
           "tests": [
             {
-              "timeout": 45000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
+              "projectId": "webkit-desktop",
+              "projectName": "webkit-desktop",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 2,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 7877,
+                  "duration": 55115,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-30T12:17:48.360Z",
+                  "startTime": "2026-09-30T11:33:12.088Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -706,9 +543,281 @@
               "status": "expected"
             }
           ],
-          "id": "5c02723ad68c2a0d50c5-b39a186e75202cc021e3",
-          "file": "site.spec.ts",
-          "line": 180,
+          "id": "472f259022e25a651642-977c02ff53fce589f89d",
+          "file": "motion.spec.ts",
+          "line": 91,
+          "column": 5
+        },
+        {
+          "title": "opening imagery is immediate and selected scroll reveals run once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-iphone",
+              "projectName": "webkit-iphone",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4239,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-30T11:32:40.968Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "472f259022e25a651642-44c618398f4d626fb5cb",
+          "file": "motion.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "navigation stays immediate and hover feedback preserves link geometry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-iphone",
+              "projectName": "webkit-iphone",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4411,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-30T11:33:03.776Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "472f259022e25a651642-6f55e85f8d34e9414bd3",
+          "file": "motion.spec.ts",
+          "line": 34,
+          "column": 5
+        },
+        {
+          "title": "reduced motion is immediate and server content works without JavaScript",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-iphone",
+              "projectName": "webkit-iphone",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3542,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-30T11:33:08.203Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "472f259022e25a651642-266b04fb5165d70a2974",
+          "file": "motion.spec.ts",
+          "line": 63,
+          "column": 5
+        },
+        {
+          "title": "motion preserves responsive content and produces no runtime errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-iphone",
+              "projectName": "webkit-iphone",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 73113,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-30T11:33:11.760Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "472f259022e25a651642-89a954d244d68fa85d2e",
+          "file": "motion.spec.ts",
+          "line": 91,
+          "column": 5
+        },
+        {
+          "title": "opening imagery is immediate and selected scroll reveals run once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-android-emulation",
+              "projectName": "chrome-android-emulation",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2573,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-30T11:34:07.837Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "472f259022e25a651642-ec69848e3fff4244de3f",
+          "file": "motion.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "navigation stays immediate and hover feedback preserves link geometry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-android-emulation",
+              "projectName": "chrome-android-emulation",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2172,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-30T11:34:10.737Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "472f259022e25a651642-44a8f4b12c248b020bf7",
+          "file": "motion.spec.ts",
+          "line": 34,
+          "column": 5
+        },
+        {
+          "title": "reduced motion is immediate and server content works without JavaScript",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-android-emulation",
+              "projectName": "chrome-android-emulation",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1389,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-30T11:34:12.919Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "472f259022e25a651642-666125af03e128979aff",
+          "file": "motion.spec.ts",
+          "line": 63,
+          "column": 5
+        },
+        {
+          "title": "motion preserves responsive content and produces no runtime errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-android-emulation",
+              "projectName": "chrome-android-emulation",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 36120,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-30T11:34:14.319Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "472f259022e25a651642-0f921bce9854560a5473",
+          "file": "motion.spec.ts",
+          "line": 91,
           "column": 5
         }
       ]
@@ -716,9 +825,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-09-30T12:16:48.670Z",
-    "duration": 68110.08099999999,
-    "expected": 18,
+    "startTime": "2026-09-30T11:31:44.041Z",
+    "duration": 186886.098,
+    "expected": 20,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

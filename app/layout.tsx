@@ -6,6 +6,7 @@ import "@fontsource/ibm-plex-mono/400.css";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { MotionController } from "@/components/motion-controller";
 import { creator, conceptProject } from "@/config/creator";
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <a className="skip-link" href="#main">Skip to content</a>
     <SiteHeader />
     <main id="main">{children}</main>
+    <MotionController />
     <SiteFooter />
   </body></html>;
 }

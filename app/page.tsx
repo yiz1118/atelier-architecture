@@ -3,6 +3,7 @@ import Link from "next/link";
 import { EditorialImage } from "@/components/editorial-image";
 import { ProjectCard } from "@/components/project-card";
 import { SectionIntro } from "@/components/section-intro";
+import { Reveal } from "@/components/reveal";
 import { projects } from "@/content/projects";
 import { articles } from "@/content/journal";
 import { services } from "@/content/services";
@@ -23,7 +24,7 @@ export default function Home() {
 
     <section className="page-shell section-block philosophy-section">
       <div className="philosophy-label"><span className="mono">02 /</span><span className="eyebrow">The studio</span></div>
-      <div className="philosophy-body"><h2>We believe the best spaces are felt before they are explained.</h2><div><p>Our work begins with attention: to a site, a way of living, a particular quality of light. We translate these observations into architecture of lasting clarity.</p><Link className="text-link" href="/studio">Our approach <span aria-hidden="true"><ArrowUpRightIcon /></span></Link></div></div>
+      <div className="philosophy-body"><Reveal as="h2">We believe the best spaces are felt before they are explained.</Reveal><div><p>Our work begins with attention: to a site, a way of living, a particular quality of light. We translate these observations into architecture of lasting clarity.</p><Link className="text-link" href="/studio">Our approach <span aria-hidden="true"><ArrowUpRightIcon /></span></Link></div></div>
     </section>
 
     <section className="page-shell section-block home-services">
@@ -33,7 +34,7 @@ export default function Home() {
 
     <section className="home-feature section-block">
       <div className="page-shell"><SectionIntro number="04 /" label="A closer look" title="A quieter kind of hospitality." /></div>
-      <Link href="/projects/gallery-hotel" className="feature-link"><EditorialImage src={projects[2].images[1].src} alt={projects[2].images[1].alt} className="feature-image" sizes="100vw" /><span className="page-shell feature-caption"><span className="mono">Gallery Hotel / Porto concept</span><span className="text-link">Explore the project <span aria-hidden="true"><ArrowUpRightIcon /></span></span></span></Link>
+      <Link href="/projects/gallery-hotel" className="feature-link"><EditorialImage src={projects[2].images[1].src} alt={projects[2].images[1].alt} className="feature-image" sizes="100vw" reveal="mask" /><span className="page-shell feature-caption"><span className="mono">Gallery Hotel / Porto concept</span><span className="text-link">Explore the project <span aria-hidden="true"><ArrowUpRightIcon /></span></span></span></Link>
     </section>
 
     <section className="page-shell section-block home-journal">

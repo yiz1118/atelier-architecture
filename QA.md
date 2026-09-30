@@ -1,5 +1,39 @@
 # ATELIER NORTH — QA record
 
+## Motion polish — 30 September 2026
+
+The motion update was verified against the local production build at `http://localhost:3204` (build ID `HWq4smi9Yb8PvGbA3YO2y`). The detailed direction, timing and reproduction commands are in [MOTION-POLISH.md](MOTION-POLISH.md). The project remains a fictional Concept Project with a local-only studio enquiry and a separate real creator contact layer.
+
+| Check | Result |
+| --- | --- |
+| `npm run lint` | Passed |
+| `npm run typecheck` | Passed |
+| `npm run build` | Passed; all known routes produced by the Next.js production build |
+| `npm run test:motion` | 20/20 passed across Chrome, Edge, desktop WebKit, iPhone WebKit emulation and Android Chrome emulation; the final reduced-motion hover adjustment also passed 5/5 targeted checks |
+| `npm test` | 18/18 browser checks passed; 2/2 creator configuration tests passed in the post-test step; portfolio screenshots refreshed |
+| Responsive motion checks | Eight representative routes at 375, 390, 430, 768, 1024 and 1440px in each browser profile; no horizontal overflow or active-visit console/page errors |
+| Core presentation comparison | Fourteen routes at the same six widths; zero sampled changes in text, header/headings/images/footer geometry, typography, color or spacing within the 0.5px tolerance |
+| Accessibility and fallback | Reduced-motion preference works when changed live; linked image focus exposes imagery; content remains visible without JavaScript; the main suite’s Axe scans passed |
+| Image and interaction checks | Opening images are immediately visible; selected loaded images reveal once; menu navigation remains immediate; hovering arrows does not resize links |
+
+The motion matrix record is [browser-matrix.json](qa/motion/browser-matrix.json), and the saved geometry comparison is [layout-differences.json](qa/motion/layout-differences.json). The desktop mask’s early, middle and settled states were visually reviewed in [image-reveal-review.png](qa/motion/image-reveal-review.png). The [mobile menu capture](qa/motion/menu-mobile.png) and [home captures](qa/motion/home-mobile.png) were also inspected. Existing full-page portfolio captures in `screenshots/` were refreshed by the passing regression suite.
+
+The local Lighthouse 13.5.0 audit used a production server, warmed image conversion and fresh browser navigations with simulated desktop/mobile conditions. Scores are lab measurements, not field Core Web Vitals:
+
+| Measure | Pre-polish desktop | Motion desktop | Pre-polish mobile | Motion mobile |
+| --- | ---: | ---: | ---: | ---: |
+| Performance | 100 | 100 | 95 | 96 |
+| Accessibility / best practices / SEO | 100 / 100 / 100 | 100 / 100 / 100 | 100 / 100 / 100 | 100 / 100 / 100 |
+| Largest contentful paint | 0.7 s | 0.6 s | 2.8 s | 2.8 s |
+| Total blocking time | 0 ms | 0 ms | 40 ms | 20 ms |
+| Cumulative layout shift | 0.007 | 0.007 | 0.017 | 0.017 |
+
+Complete [desktop](qa/lighthouse-desktop.html) and [mobile](qa/lighthouse-mobile.html) reports are retained, alongside the [pre-polish desktop](qa/motion/before-lighthouse-desktop.json) and [pre-polish mobile](qa/motion/before-lighthouse-mobile.json) JSON baselines. The small timing differences across runs are normal lab variation; the score and layout-shift comparisons are the meaningful performance gate here.
+
+Desktop WebKit and phone profiles were emulated on Windows. No physical iPhone/Android or native macOS Safari device was tested. No deployment or remote push is covered by this local QA record.
+
+## Creator/contact audit — 29 September 2026
+
 Verified on 29 September 2026 against the local **production build** at `http://localhost:3204`, including the creator/contact integration. The Lighthouse measurements below were taken on 28 September, before the icon and creator updates; they were not repeated for this integration.
 
 This is a fictional **Concept Project**. The studio, five project studies, locations, dates, plans, editorial articles and AI-generated photographs are conceptual content. The enquiry is a local demonstration.

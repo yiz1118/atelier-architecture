@@ -30,6 +30,7 @@ npm test
 npm run test:icons
 npm run test:creator
 npm run test:creator-config
+npm run test:motion
 ```
 
 The browser suite starts the production server on port 3204 and uses installed Google Chrome. It checks route availability, image loading, interactions, responsive overflow, selected accessibility rules and portfolio screenshots.
@@ -37,6 +38,8 @@ The browser suite starts the production server on port 3204 and uses installed G
 The dedicated icon suite additionally checks Chrome, Edge, WebKit desktop, iPhone WebKit emulation and Android Chrome emulation at 375, 390, 430, 768, 1024 and 1440 pixels. Install the WebKit browser once with `npx playwright install webkit` before running that matrix. See `ICON-CONSISTENCY-QA.md` for the symbol audit and before/after evidence.
 
 The creator suite uses the same five profiles to check credit, contact destinations, keyboard/touch interaction, focus, accessibility and overflow at all six widths. `npm test` also runs the two creator configuration tests after the main browser suite, then refreshes portfolio cover images.
+
+The motion suite checks one-time loaded-image reveals, immediate navigation, fixed hover geometry, reduced motion, server-rendered fallback content and responsive runtime behavior across the same five profiles and six widths. [MOTION-POLISH.md](MOTION-POLISH.md) documents the timings and reusable primitives. With the production preview running, `node scripts/motion-review.mjs` compares the current core presentation with the saved pre-polish baseline, and `node scripts/motion-capture.mjs` refreshes transition frames and mobile menu captures in `qa/motion/`.
 
 For the performance audit, keep a production server running on port 3204 in one terminal, then use another terminal:
 
